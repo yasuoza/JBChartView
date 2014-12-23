@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A833769A1A4947F4004AE3F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83376991A4947F4004AE3F0 /* UIKit.framework */; };
+		A833769C1A4947F9004AE3F0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A833769B1A4947F9004AE3F0 /* QuartzCore.framework */; };
+		A83376AA1A494917004AE3F0 /* JBChartFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = A83376A31A494917004AE3F0 /* JBChartFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A83376BF1A494B58004AE3F0 /* JBBarChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = A83376B91A494B58004AE3F0 /* JBBarChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A83376C01A494B58004AE3F0 /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = A83376BA1A494B58004AE3F0 /* JBBarChartView.m */; };
+		A83376C11A494B58004AE3F0 /* JBChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = A83376BB1A494B58004AE3F0 /* JBChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A83376C21A494B58004AE3F0 /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = A83376BC1A494B58004AE3F0 /* JBChartView.m */; };
+		A83376C31A494B58004AE3F0 /* JBLineChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = A83376BD1A494B58004AE3F0 /* JBLineChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A83376C41A494B58004AE3F0 /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = A83376BE1A494B58004AE3F0 /* JBLineChartView.m */; };
+		A87676C01A49447700BA0784 /* JBChartFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87676B41A49447700BA0784 /* JBChartFramework.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A87676C11A49447700BA0784 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A87676AB1A49447700BA0784 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A87676B31A49447700BA0784;
+			remoteInfo = JBChartFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A83376991A4947F4004AE3F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A833769B1A4947F9004AE3F0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A83376A31A494917004AE3F0 /* JBChartFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartFramework.h; sourceTree = "<group>"; };
+		A83376B91A494B58004AE3F0 /* JBBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBarChartView.h; sourceTree = "<group>"; };
+		A83376BA1A494B58004AE3F0 /* JBBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBBarChartView.m; sourceTree = "<group>"; };
+		A83376BB1A494B58004AE3F0 /* JBChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartView.h; sourceTree = "<group>"; };
+		A83376BC1A494B58004AE3F0 /* JBChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChartView.m; sourceTree = "<group>"; };
+		A83376BD1A494B58004AE3F0 /* JBLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLineChartView.h; sourceTree = "<group>"; };
+		A83376BE1A494B58004AE3F0 /* JBLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLineChartView.m; sourceTree = "<group>"; };
+		A87676B41A49447700BA0784 /* JBChartFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JBChartFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87676B81A49447700BA0784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A87676BF1A49447700BA0784 /* JBChartFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JBChartFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A87676B01A49447700BA0784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A833769C1A4947F9004AE3F0 /* QuartzCore.framework in Frameworks */,
+				A833769A1A4947F4004AE3F0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87676BC1A49447700BA0784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87676C01A49447700BA0784 /* JBChartFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A83376B31A494A4B004AE3F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A833769B1A4947F9004AE3F0 /* QuartzCore.framework */,
+				A83376991A4947F4004AE3F0 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A83376B81A494B58004AE3F0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A83376B91A494B58004AE3F0 /* JBBarChartView.h */,
+				A83376BA1A494B58004AE3F0 /* JBBarChartView.m */,
+				A83376BB1A494B58004AE3F0 /* JBChartView.h */,
+				A83376BC1A494B58004AE3F0 /* JBChartView.m */,
+				A83376BD1A494B58004AE3F0 /* JBLineChartView.h */,
+				A83376BE1A494B58004AE3F0 /* JBLineChartView.m */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		A87676AA1A49447700BA0784 = {
+			isa = PBXGroup;
+			children = (
+				A87676B61A49447700BA0784 /* JBChartFramework */,
+				A83376B31A494A4B004AE3F0 /* Frameworks */,
+				A87676B51A49447700BA0784 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A87676B51A49447700BA0784 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A87676B41A49447700BA0784 /* JBChartFramework.framework */,
+				A87676BF1A49447700BA0784 /* JBChartFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A87676B61A49447700BA0784 /* JBChartFramework */ = {
+			isa = PBXGroup;
+			children = (
+				A83376B81A494B58004AE3F0 /* Classes */,
+				A83376A31A494917004AE3F0 /* JBChartFramework.h */,
+				A87676B71A49447700BA0784 /* Supporting Files */,
+			);
+			path = JBChartFramework;
+			sourceTree = "<group>";
+		};
+		A87676B71A49447700BA0784 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A87676B81A49447700BA0784 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A87676B11A49447700BA0784 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83376C31A494B58004AE3F0 /* JBLineChartView.h in Headers */,
+				A83376BF1A494B58004AE3F0 /* JBBarChartView.h in Headers */,
+				A83376C11A494B58004AE3F0 /* JBChartView.h in Headers */,
+				A83376AA1A494917004AE3F0 /* JBChartFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A87676B31A49447700BA0784 /* JBChartFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87676CA1A49447700BA0784 /* Build configuration list for PBXNativeTarget "JBChartFramework" */;
+			buildPhases = (
+				A87676AF1A49447700BA0784 /* Sources */,
+				A87676B01A49447700BA0784 /* Frameworks */,
+				A87676B11A49447700BA0784 /* Headers */,
+				A87676B21A49447700BA0784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JBChartFramework;
+			productName = JBChartFramework;
+			productReference = A87676B41A49447700BA0784 /* JBChartFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A87676BE1A49447700BA0784 /* JBChartFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87676CD1A49447700BA0784 /* Build configuration list for PBXNativeTarget "JBChartFrameworkTests" */;
+			buildPhases = (
+				A87676BB1A49447700BA0784 /* Sources */,
+				A87676BC1A49447700BA0784 /* Frameworks */,
+				A87676BD1A49447700BA0784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A87676C21A49447700BA0784 /* PBXTargetDependency */,
+			);
+			name = JBChartFrameworkTests;
+			productName = JBChartFrameworkTests;
+			productReference = A87676BF1A49447700BA0784 /* JBChartFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A87676AB1A49447700BA0784 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Jawbone;
+				TargetAttributes = {
+					A87676B31A49447700BA0784 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A87676BE1A49447700BA0784 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = A87676AE1A49447700BA0784 /* Build configuration list for PBXProject "JBChartFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A87676AA1A49447700BA0784;
+			productRefGroup = A87676B51A49447700BA0784 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A87676B31A49447700BA0784 /* JBChartFramework */,
+				A87676BE1A49447700BA0784 /* JBChartFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A87676B21A49447700BA0784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87676BD1A49447700BA0784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A87676AF1A49447700BA0784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83376C01A494B58004AE3F0 /* JBBarChartView.m in Sources */,
+				A83376C41A494B58004AE3F0 /* JBLineChartView.m in Sources */,
+				A83376C21A494B58004AE3F0 /* JBChartView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87676BB1A49447700BA0784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A87676C21A49447700BA0784 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A87676B31A49447700BA0784 /* JBChartFramework */;
+			targetProxy = A87676C11A49447700BA0784 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A87676C81A49447700BA0784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A87676C91A49447700BA0784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A87676CB1A49447700BA0784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JBChartFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A87676CC1A49447700BA0784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JBChartFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A87676CE1A49447700BA0784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JBChartFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A87676CF1A49447700BA0784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JBChartFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A87676AE1A49447700BA0784 /* Build configuration list for PBXProject "JBChartFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87676C81A49447700BA0784 /* Debug */,
+				A87676C91A49447700BA0784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87676CA1A49447700BA0784 /* Build configuration list for PBXNativeTarget "JBChartFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87676CB1A49447700BA0784 /* Debug */,
+				A87676CC1A49447700BA0784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87676CD1A49447700BA0784 /* Build configuration list for PBXNativeTarget "JBChartFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87676CE1A49447700BA0784 /* Debug */,
+				A87676CF1A49447700BA0784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A87676AB1A49447700BA0784 /* Project object */;
+}
