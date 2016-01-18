@@ -5,6 +5,6 @@
       location = "group:JBChartFramework.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:JBChartViewDemo/JBChartViewDemo.xcodeproj">
+      location = "group:../graphPON/Seeds/JBChartView/JBChartViewDemo/JBChartViewDemo.xcodeproj">
    </FileRef>
 </Workspace>
